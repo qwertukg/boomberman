@@ -1,13 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Body",
-  "eventList":[],
+  "%Name":"obj_controller",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Body",
+  "name":"obj_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"Объекты",
-    "path":"folders/Объекты.yy",
+    "name":"boomberman",
+    "path":"boomberman.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_body",
-    "path":"sprites/spr_body/spr_body.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

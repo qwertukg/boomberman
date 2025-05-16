@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"boomberman",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -26,11 +26,12 @@
     {"$GMFolder":"","%Name":"Шейдеры","folderPath":"folders/Шейдеры.yy","name":"Шейдеры","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Шрифты","folderPath":"folders/Шрифты.yy","name":"Шрифты","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"boomberman",
   "resources":[
@@ -45,8 +46,9 @@
     {"id":{"name":"spr_foot","path":"sprites/spr_foot/spr_foot.yy",},},
     {"id":{"name":"spr_hi_leg","path":"sprites/spr_hi_leg/spr_hi_leg.yy",},},
     {"id":{"name":"spr_lo_leg","path":"sprites/spr_lo_leg/spr_lo_leg.yy",},},
+    {"id":{"name":"Sprite5_1","path":"sprites/Sprite5_1/Sprite5_1.yy",},},
+    {"id":{"name":"Sprite5_move","path":"sprites/Sprite5_move/Sprite5_move.yy",},},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
-    {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

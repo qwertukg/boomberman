@@ -1,1 +1,1 @@
-game_set_speed(20, gamespeed_fps);
+game_set_speed(10, gamespeed_fps);

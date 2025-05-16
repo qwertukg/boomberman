@@ -1,6 +1,5 @@
-sprite_index = spr_bot_move
-image_speed = 0
-image_index = 0
-image_angle = 0
+sprite_index = spr_bot_run
 
-step = sprite_width / 10
+image_speed = 0
+
+v = sprite_width / 20

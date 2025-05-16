@@ -1,0 +1,1 @@
+game_set_speed(20, gamespeed_fps);

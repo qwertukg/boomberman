@@ -31,7 +31,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"boomberman",
   "resources":[
@@ -42,12 +42,13 @@
     {"id":{"name":"obj_hi_leg","path":"objects/obj_hi_leg/obj_hi_leg.yy",},},
     {"id":{"name":"obj_lo_leg","path":"objects/obj_lo_leg/obj_lo_leg.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"__spr_bot_jump","path":"sprites/__spr_bot_jump/__spr_bot_jump.yy",},},
     {"id":{"name":"__spr_bot_move","path":"sprites/__spr_bot_move/__spr_bot_move.yy",},},
     {"id":{"name":"__spr_bot_run","path":"sprites/__spr_bot_run/__spr_bot_run.yy",},},
+    {"id":{"name":"__spr_bot_stick","path":"sprites/__spr_bot_stick/__spr_bot_stick.yy",},},
     {"id":{"name":"spr_body","path":"sprites/spr_body/spr_body.yy",},},
     {"id":{"name":"spr_bot_move","path":"sprites/spr_bot_move/spr_bot_move.yy",},},
     {"id":{"name":"spr_bot_run","path":"sprites/spr_bot_run/spr_bot_run.yy",},},
+    {"id":{"name":"spr_bot_stick","path":"sprites/spr_bot_stick/spr_bot_stick.yy",},},
     {"id":{"name":"spr_foot","path":"sprites/spr_foot/spr_foot.yy",},},
     {"id":{"name":"spr_hi_leg","path":"sprites/spr_hi_leg/spr_hi_leg.yy",},},
     {"id":{"name":"spr_lo_leg","path":"sprites/spr_lo_leg/spr_lo_leg.yy",},},

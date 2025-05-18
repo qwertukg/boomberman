@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_bot_run",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":31,
-  "bbox_left":2,
-  "bbox_right":37,
+  "bbox_left":8,
+  "bbox_right":31,
   "bbox_top":8,
   "collisionKind":1,
   "collisionTolerance":0,

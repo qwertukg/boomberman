@@ -1,60 +1,34 @@
+var vx = lengthdir_x(v, image_angle);
+var vy = lengthdir_y(v, image_angle);
 
+for (var i = 0; i < array_length(moves); i++) {
+	var key = moves[i][3]
 
-if (keyboard_check(vk_control)) {
-	
-	sprite_index = spr_bot_stick
-	
-	if (keyboard_check(vk_right)) {
-		image_angle = 0
-		if (image_index >= 0 && image_index < image_number - 1) image_index++
-	} else if (keyboard_check(vk_up)) {
-		image_angle = 90
-		if (image_index >= 0 && image_index < image_number - 1) image_index++
-	} else if (keyboard_check(vk_left)) {
-		image_angle = 180
-		if (image_index >= 0 && image_index < image_number - 1) image_index++
-	} else if (keyboard_check(vk_down)) {
-		image_angle = 270
-		if (image_index >= 0 && image_index < image_number - 1) image_index++
-	} else if (image_index > 0) {
-		image_index--
+	if (keyboard_check(ord(key)) && current_key == noone) {
+		// Предсказанное движение
+		var dx = moves[i][0]
+		var dy = moves[i][1]
+		var test_x = x + v * dx
+		var test_y = y + v * dy
+		
+		// Проверка на стену
+		if (instance_place(test_x, test_y, obj_wall_base) == noone) {
+			current_vx = dx;
+			current_vy = dy;
+			current_angle = moves[i][2];
+			current_key = moves[i][3];
+		}
 	}
-	
-	
-} else {
-	
-	sprite_index = spr_bot_run
-	var d = point_distance(xprevious, yprevious, x, y)
-	
-	if (keyboard_check(vk_right)) {
-		image_angle = 0
-		image_index++
-		x += v
-	} else if (keyboard_check(vk_up)) {
-		image_angle = 90
-		image_index++
-		y -= v
-	} else if (keyboard_check(vk_left)) {
-		image_angle = 180
-		image_index++
-		x -= v
-	} else if (keyboard_check(vk_down)) {
-		image_angle = 270
-		image_index++
-		y += v
-	} 
-
-	else if (d == 0 && image_index > 0) {
-		image_index--
-		if (image_angle == 0) x -= v
-		if (image_angle == 90) y += v
-		if (image_angle == 180) x += v
-		if (image_angle == 270) y -= v
-	}
-	
 }
 
-show_debug_message(image_index)
+if (current_key != noone) {
+	image_index++
+	image_angle = current_angle
+	x += v * current_vx
+	y += v * current_vy
+}
 
-
+if (image_index == image_number) {
+	current_key = noone
+}
 

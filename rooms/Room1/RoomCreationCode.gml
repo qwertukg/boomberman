@@ -1,1 +1,0 @@
-game_set_speed(15, gamespeed_fps);

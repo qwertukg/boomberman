@@ -4,7 +4,7 @@ var vy = lengthdir_y(v, image_angle);
 for (var i = 0; i < array_length(moves); i++) {
 	var key = moves[i][3]
 
-	if (keyboard_check(ord(key)) && current_key == noone) {
+	if (keyboard_check(key) && current_key == noone) {
 		// Предсказанное движение
 		var dx = moves[i][0]
 		var dy = moves[i][1]

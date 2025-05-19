@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall_long",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_wall_5",
+  "eventList":[],
   "managed":true,
-  "name":"obj_wall_long",
+  "name":"obj_wall_5",
   "overriddenProperties":[],
   "parent":{
     "name":"Объекты",
@@ -26,15 +24,20 @@
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
-  "physicsShapePoints":[],
+  "physicsShapePoints":[
+    {"x":0.0,"y":0.0,},
+    {"x":24.0,"y":0.0,},
+    {"x":24.0,"y":24.0,},
+    {"x":0.0,"y":24.0,},
+  ],
   "physicsStartAwake":true,
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall_long",
-    "path":"sprites/spr_wall_long/spr_wall_long.yy",
+    "name":"spr_wall_5",
+    "path":"sprites/spr_wall_5/spr_wall_5.yy",
   },
   "spriteMaskId":null,
   "visible":true,

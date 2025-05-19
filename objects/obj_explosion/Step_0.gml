@@ -39,13 +39,13 @@ image_angle = point_direction(0, 0, vx, vy)
 
 // wall is damaged
 if (wall != noone) {
-	wall.hp -= spd
+	wall.hp -= spd/sprite_width
 }
 
 // player is damaged
 var enemy = instance_place(x + vx, y + vy, obj_bot);
 if (enemy != noone) {
-	enemy.hp -= spd
+	enemy.hp -= spd/sprite_width
 }
 
 // boomb is damaged

@@ -1,3 +1,6 @@
 draw_set_color(c_lime)
-draw_text(16, 16, "Power: " + string(bomb_power))
-draw_text(16, 32, "Timer: " + string(bomb_timer))
+draw_text(16, 16, "Power:				" + string(bomb_power))
+draw_text(16, 32, "Timer:				" + string(bomb_timer))
+draw_text(16, 48, "Health:				" + string(hp))
+draw_text(16, 64, "Score:				" + string(score_point))
+draw_text(16, 80, "Score to next level:	" + string(upgrade_score * bomb_power))

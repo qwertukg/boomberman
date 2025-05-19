@@ -1,5 +1,8 @@
 frame++
-if (frame <= timer) exit
+
+if (!is_detonate) {
+	if (frame <= timer ) exit
+}
 
 for (var i = 0; i < count; i++) {
 	var _x = random_range(x - size, x + size)
@@ -16,4 +19,7 @@ for (var i = 0; i < count; i++) {
 	});
 }
 
-if (frame > duration + timer) instance_destroy()
+duration--
+if (duration <= 0) {
+	instance_destroy()
+}

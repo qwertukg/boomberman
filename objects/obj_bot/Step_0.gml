@@ -32,3 +32,21 @@ if (image_index == image_number) {
 	current_key = noone
 }
 
+// back if intersect wall
+if (instance_place(x, y, obj_wall_base) != noone) {
+	x -= v * current_vx
+	y -= v * current_vy
+}
+
+// GAME OVER
+if (hp <= 0) {
+	instance_destroy()
+	
+	show_debug_message("GAME OVER!!!")
+}
+
+// boomb upgrade
+if (score_point > upgrade_score * bomb_power) {
+	bomb_power++
+	upgrade_score *= 2
+}

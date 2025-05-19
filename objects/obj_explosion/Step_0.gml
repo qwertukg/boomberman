@@ -38,7 +38,21 @@ spd			= point_distance(0, 0, vx, vy);
 image_angle = point_direction(0, 0, vx, vy)
 
 // wall is damaged
-if (wall != noone) wall.hp -= spd
+if (wall != noone) {
+	wall.hp -= spd
+}
+
+// player is damaged
+var enemy = instance_place(x + vx, y + vy, obj_bot);
+if (enemy != noone) {
+	enemy.hp -= spd
+}
+
+// boomb is damaged
+var boomb = instance_place(x + vx, y + vy, obj_bomb);
+if (boomb != noone) {
+	boomb.is_detonate = true
+}
 
 // ───────── 4. теперь можно удалять, если нужно ─────────
 if (spd <= 0.01 || image_alpha <= 0) {

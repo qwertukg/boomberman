@@ -10,11 +10,13 @@ if (hp <= 0) {
 	}
 	
 	var player = instance_find(obj_bot, 0)
-	if (player != noone) player.score_point += sprite_width * sprite_height
+	if (player != noone) player.score_point += base_hp
 	
 	instance_destroy()
 }
 
-if (hp <= (sprite_width * sprite_height) / 2 && image_index + 1 < image_number) {
+var hp_to_next = round(base_hp - (base_hp / image_number * (image_index + 1)))
+if (hp <= hp_to_next && image_index + 1 < image_number) {
 	image_index++
+	show_debug_message(image_index)
 }

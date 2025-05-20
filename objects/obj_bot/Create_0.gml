@@ -1,3 +1,5 @@
+frame = 0
+is_animate = true
 depth = -200
 image_speed = 0
 current_vx = 0
@@ -5,7 +7,6 @@ current_vy =0
 current_angle = 0
 current_key = noone
 is_change = false
-frame = 0
 
 score_point = 0
 hp = 1000
@@ -20,8 +21,8 @@ moves = [
 
 // bombs
 bomb_power = 1
-bomb_timer = 3
-bomb_max_count = 3
+bomb_timer = 5
+bomb_max_count = 5
 bomb_count = bomb_max_count
 
 test_x = 0

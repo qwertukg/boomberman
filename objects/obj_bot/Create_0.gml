@@ -4,6 +4,8 @@ current_vx = 0
 current_vy =0
 current_angle = 0
 current_key = noone
+is_change = false
+frame = 0
 
 score_point = 0
 hp = 1000

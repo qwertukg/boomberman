@@ -1,10 +1,32 @@
+frame++
 var vx = lengthdir_x(v, image_angle);
 var vy = lengthdir_y(v, image_angle);
+
+//if (keyboard_check(vk_right)) current_key = vk_right
+//if (keyboard_check(vk_up)) current_key = vk_up
+
+if (image_index == 0) {
+	if (keyboard_check(vk_right) && keyboard_check(vk_up)) {
+		if (is_change) {
+			current_key = vk_up
+			is_change = !is_change
+
+			show_debug_message("to up -    current_key: " + string(current_key) + " frame: " + string(frame))
+		} else {
+			current_key = vk_right
+			is_change = !is_change
+
+			show_debug_message("to right - current_key: " + string(current_key) + " frame: " + string(frame))
+		}
+	}
+}
+
+
 
 for (var i = 0; i < array_length(moves); i++) {
 	var key = moves[i][3]
 
-	if (keyboard_check(key) && current_key == noone) {
+	if (current_key == key) {
 		// Предсказанное движение
 		var dx = moves[i][0]
 		var dy = moves[i][1]
@@ -16,7 +38,7 @@ for (var i = 0; i < array_length(moves); i++) {
 			current_vx = dx;
 			current_vy = dy;
 			current_angle = moves[i][2];
-			current_key = moves[i][3];
+			current_key = key
 		}
 	}
 }
@@ -41,8 +63,6 @@ if (instance_place(x, y, obj_wall_base) != noone) {
 // GAME OVER
 if (hp <= 0) {
 	instance_destroy()
-	
-	show_debug_message("GAME OVER!!!")
 }
 
 // boomb upgrade

@@ -53,6 +53,7 @@
     {"id":{"name":"spr_bomb_timer","path":"sprites/spr_bomb_timer/spr_bomb_timer.yy",},},
     {"id":{"name":"spr_bomb","path":"sprites/spr_bomb/spr_bomb.yy",},},
     {"id":{"name":"spr_bot_run","path":"sprites/spr_bot_run/spr_bot_run.yy",},},
+    {"id":{"name":"spr_bot","path":"sprites/spr_bot/spr_bot.yy",},},
     {"id":{"name":"spr_fire","path":"sprites/spr_fire/spr_fire.yy",},},
     {"id":{"name":"spr_wall_0","path":"sprites/spr_wall_0/spr_wall_0.yy",},},
     {"id":{"name":"spr_wall_1","path":"sprites/spr_wall_1/spr_wall_1.yy",},},

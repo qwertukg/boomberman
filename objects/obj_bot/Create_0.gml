@@ -1,5 +1,4 @@
 depth = -200
-sprite_index = spr_bot_run
 image_speed = 0
 current_vx = 0
 current_vy =0

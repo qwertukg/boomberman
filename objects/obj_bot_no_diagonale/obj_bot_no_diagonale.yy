@@ -11,8 +11,8 @@
   "name":"obj_bot_no_diagonale",
   "overriddenProperties":[],
   "parent":{
-    "name":"Объекты",
-    "path":"folders/Объекты.yy",
+    "name":"__old",
+    "path":"folders/__old.yy",
   },
   "parentObjectId":null,
   "persistent":false,

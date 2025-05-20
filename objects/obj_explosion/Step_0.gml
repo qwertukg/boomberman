@@ -51,6 +51,9 @@ if (enemy != noone) {
 // boomb is damaged
 var boomb = instance_place(x + vx, y + vy, obj_bomb);
 if (boomb != noone) {
+	boomb.is_armed = true
+	boomb.time = 0
+	boomb.detonate_time = 0
 	boomb.is_detonate = true
 }
 

@@ -1,10 +1,16 @@
-frame++
+time--
 
-if (!is_detonate) {
-	if (frame <= timer ) exit
-}
+if (time > 0) exit
 
-for (var i = 0; i < count; i++) {
+if (!is_armed) exit
+
+if (!is_detonate) exit
+
+detonate_time--
+
+if (detonate_time > 0) exit
+
+for (var i = 0; i < particles_count; i++) {
 	var _x = random_range(x - size, x + size)
 	var _y = random_range(y - size, y + size)
 

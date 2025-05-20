@@ -1,9 +1,9 @@
 draw_set_color(c_white)
 draw_text(16, 16 * 1,				"Power:      " + string(bomb_power))
 draw_text(16, 16 * 2,				"Timer:      " + string(bomb_timer))
-draw_text(16, 16 * 3,				"Health:     " + string(hp))
+draw_text(16, 16 * 3,				"Health:     " + string(round(hp)))
 draw_text(16, 16 * 4,				"Bombs:      " + string(bomb_count))
-draw_text(16, 16 * 5,				"Score:      " + string(score_point))
+draw_text(16, 16 * 5,				"Score:      " + string(round(global.score_point)))
 draw_text(16, 16 * 6,				"Next level: " + string(upgrade_score * bomb_power))
 
 draw_text(16, room_height - 16 * 6, "UP:         Up")

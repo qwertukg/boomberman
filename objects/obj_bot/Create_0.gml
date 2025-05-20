@@ -8,7 +8,6 @@ current_angle = 0
 current_key = noone
 is_change = false
 
-score_point = 0
 hp = 1000
 v = sprite_width / 20
 
@@ -24,6 +23,12 @@ bomb_power = 1
 bomb_timer = 5
 bomb_max_count = 5
 bomb_count = bomb_max_count
+
+detect_bomb_power = 1
+detect_bomb_timer = 3
+detect_bomb_max_count = 5
+detect_bomb_count = detect_bomb_max_count
+
 
 test_x = 0
 test_y = 0

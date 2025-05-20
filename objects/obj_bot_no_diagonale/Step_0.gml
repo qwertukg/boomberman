@@ -52,7 +52,7 @@ if (score_point > upgrade_score * bomb_power) {
 }
 
 // bomb reload
-var placed_bombs = instance_number(obj_bomb)
+var placed_bombs = instance_number(obj_bomb_timer)
 bomb_count = bomb_max_count - placed_bombs
 if (bomb_count == 0) sprite_index = spr_bot_empty
 else if (bomb_count == 1) sprite_index = spr_bot_min

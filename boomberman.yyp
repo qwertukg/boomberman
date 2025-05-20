@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"__old","folderPath":"folders/__old.yy","name":"__old","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Explosion","folderPath":"folders/Explosion.yy","name":"Explosion","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Временные шкалы","folderPath":"folders/Временные шкалы.yy","name":"Временные шкалы","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -36,6 +37,8 @@
   },
   "name":"boomberman",
   "resources":[
+    {"id":{"name":"obj_bomb_detect","path":"objects/obj_bomb_detect/obj_bomb_detect.yy",},},
+    {"id":{"name":"obj_bomb_timer","path":"objects/obj_bomb_timer/obj_bomb_timer.yy",},},
     {"id":{"name":"obj_bomb","path":"objects/obj_bomb/obj_bomb.yy",},},
     {"id":{"name":"obj_bot_no_diagonale","path":"objects/obj_bot_no_diagonale/obj_bot_no_diagonale.yy",},},
     {"id":{"name":"obj_bot","path":"objects/obj_bot/obj_bot.yy",},},
@@ -50,6 +53,7 @@
     {"id":{"name":"obj_wall_base","path":"objects/obj_wall_base/obj_wall_base.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"create_bomb","path":"scripts/create_bomb/create_bomb.yy",},},
+    {"id":{"name":"spr_bomb_detect","path":"sprites/spr_bomb_detect/spr_bomb_detect.yy",},},
     {"id":{"name":"spr_bomb_timer","path":"sprites/spr_bomb_timer/spr_bomb_timer.yy",},},
     {"id":{"name":"spr_bomb","path":"sprites/spr_bomb/spr_bomb.yy",},},
     {"id":{"name":"spr_bot_armed","path":"sprites/spr_bot_armed/spr_bot_armed.yy",},},

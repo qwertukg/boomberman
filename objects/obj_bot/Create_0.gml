@@ -16,8 +16,11 @@ moves = [
 	[0,  1, 270, vk_down]	// ВНИЗ
 ]
 
+// bombs
 bomb_power = 1
-bomb_timer = 10
+bomb_timer = 3
+bomb_max_count = 3
+bomb_count = bomb_max_count
 
 test_x = 0
 test_y = 0

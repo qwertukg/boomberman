@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bot",
-    "path":"sprites/spr_bot/spr_bot.yy",
+    "name":"spr_bot_armed",
+    "path":"sprites/spr_bot_armed/spr_bot_armed.yy",
   },
   "spriteMaskId":null,
   "visible":true,

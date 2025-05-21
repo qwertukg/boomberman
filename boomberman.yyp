@@ -33,7 +33,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"boomberman",
   "resources":[
@@ -53,6 +53,7 @@
     {"id":{"name":"obj_wall_base","path":"objects/obj_wall_base/obj_wall_base.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"create_bomb","path":"scripts/create_bomb/create_bomb.yy",},},
+    {"id":{"name":"spr_bomb_detect_armed","path":"sprites/spr_bomb_detect_armed/spr_bomb_detect_armed.yy",},},
     {"id":{"name":"spr_bomb_detect","path":"sprites/spr_bomb_detect/spr_bomb_detect.yy",},},
     {"id":{"name":"spr_bomb_timer","path":"sprites/spr_bomb_timer/spr_bomb_timer.yy",},},
     {"id":{"name":"spr_bomb","path":"sprites/spr_bomb/spr_bomb.yy",},},

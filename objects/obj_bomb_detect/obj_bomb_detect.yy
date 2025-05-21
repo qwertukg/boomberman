@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bomb_timer",
-    "path":"sprites/spr_bomb_timer/spr_bomb_timer.yy",
+    "name":"spr_bomb_detect",
+    "path":"sprites/spr_bomb_detect/spr_bomb_detect.yy",
   },
   "spriteMaskId":null,
   "visible":true,

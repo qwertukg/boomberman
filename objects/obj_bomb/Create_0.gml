@@ -1,3 +1,5 @@
+name = "Default"
+
 image_speed = 2
 size = 2
 particles_count = 50

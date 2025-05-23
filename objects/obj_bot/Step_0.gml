@@ -70,7 +70,7 @@ if (image_index == image_number) {
 	current_key = noone
 }
 
-// back if intersect wall
+// back if intersect wall TODO
 //if (instance_place(x, y, obj_wall_base) != noone) {
 //	x -= v * current_vx
 //	y -= v * current_vy

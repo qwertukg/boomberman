@@ -33,7 +33,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"boomberman",
   "resources":[
@@ -42,6 +42,7 @@
     {"id":{"name":"obj_bomb","path":"objects/obj_bomb/obj_bomb.yy",},},
     {"id":{"name":"obj_bot_no_diagonale","path":"objects/obj_bot_no_diagonale/obj_bot_no_diagonale.yy",},},
     {"id":{"name":"obj_bot","path":"objects/obj_bot/obj_bot.yy",},},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_explosion_1","path":"objects/obj_explosion_1/obj_explosion_1.yy",},},
     {"id":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},},
